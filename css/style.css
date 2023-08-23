@@ -577,9 +577,27 @@ body {
 
 
 /* Медиа-запросы для адаптивности */
+@media (max-width: 1920px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 1800px) {
   .container {
     max-width: 90%;
+  }
+}
+
+@media (max-width: 1680px) {
+  .container {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    /* width: 960px */
+    max-width: 75%;
   }
 }
 
