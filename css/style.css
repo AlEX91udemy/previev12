@@ -573,13 +573,8 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1786px;
-  /* margin: 10px 10px 0px 30px; */
-  /* padding: 10px; */
-}
 
-/* Остальной CSS... */
+
 
 /* Медиа-запросы для адаптивности */
 @media (max-width: 1800px) {
@@ -588,6 +583,12 @@ body {
   }
 }
 
+@media (max-width: 1365px) {
+  .container {
+    /* width: 960px */
+    max-width: 75%;
+  }
+}
 @media (max-width: 1199px) {
   .container {
     /* width: 960px */
@@ -609,17 +610,9 @@ body {
   }
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .container {
     /* width: 100% */
-    max-width: 100%;
-  }
-}
-
-/* Медиа-запрос для более узких экранов */
-/* @media (max-width: 600px) {
-  .box-1 { */
-    /* width: 100%; Заполнить всю доступную ширину на узких экранах */
-   /* // Автоматическая высота для сохранения пропорций */
-  /* }
-} */
+    /* max-width: 100%; */
+  /* } */
+/* } */ 
